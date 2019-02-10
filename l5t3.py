@@ -1,9 +1,8 @@
-import turtle 
-from l5t2 import Rectangle
-from l5t1 import Point
+from time import gmtime, strftime
 
-def draw_rectangle(rect):
-  turtle.up()
-  turtle.down()
-  turtle.forward(rect.width)          
-  turtle.left(90)
+def print_time():
+    print("Current Time is:",strftime( gmtime))
+
+print_time()    
+
+
