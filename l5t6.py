@@ -9,7 +9,7 @@ class Point:
 		print (self.x+ob.x,self.y+ob.y)
 	def add(self,ob):
 		if isinstance(ob,tuple):
-                    print(self.x+ob,self.y+ob)
+                     print(self.x+ob[0],self.y+ob[1])
 		else:
 			print(self+ob)
 
